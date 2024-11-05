@@ -168,7 +168,7 @@
         this.is_on = !this.is_on;
         console.log('button clicked');
         let xhr = new XMLHttpRequest();
-        xhr.open('GET', 'http://192.168.4.22/toggle', true);
+        xhr.open('GET', '/toggle', true);
         xhr.send();
       }
     }
